@@ -343,7 +343,7 @@ class Main extends Component {
         <div className="grid-container">{this.renderGrid()}</div>
         <div className="last-div">
           <h2>
-            Made by <a href="#">Mayank</a>
+            Made by <a href=""https://www.github.com/oyemayanq>Mayank</a>
           </h2>
         </div>
       </div>
