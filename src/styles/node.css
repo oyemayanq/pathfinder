@@ -1,0 +1,69 @@
+.node {
+  height: 2rem;
+  width: 2rem;
+  outline: 1px solid #3f8efc;
+}
+
+.start-node {
+  background-color: green;
+}
+
+.end-node {
+  background-color: red;
+}
+
+.wall-node {
+  background-color: #243ab4;
+}
+
+.visited-node {
+  animation: visitedNode 1.5s ease forwards;
+}
+
+.path-node {
+  animation: pathNode 1.5s ease forwards;
+}
+
+@keyframes pathNode {
+  0% {
+    background-color: #83e377;
+    border-radius: 50%;
+    transform: scale(0.3);
+  }
+  50% {
+    background-color: #ffb600;
+    transform: scale(1.2);
+  }
+  100% {
+    background-color: #f7b538;
+    transform: scale(1);
+    border-radius: 0;
+  }
+}
+
+@keyframes visitedNode {
+  0% {
+    background-color: #f72585;
+    border-radius: 50%;
+    transform: scale(0.3);
+  }
+  50% {
+    background-color: #7209b7;
+  }
+  75% {
+    background-color: #858ae3;
+    transform: scale(1.2);
+  }
+  100% {
+    background-color: #c1d3fe;
+    transform: scale(1);
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width:870px){
+  .node{
+    height:1.3rem;
+    width:1.3rem;
+  }
+}

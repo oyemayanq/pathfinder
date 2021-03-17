@@ -1,0 +1,164 @@
+.main-nav {
+  height: 7vh;
+  border-bottom: 1.5px solid #0a2472;
+  padding: 0 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-wrapper {
+  position: relative;
+}
+
+.main-title {
+  font-size: 1.6rem;
+  color: #2b4eb4;
+  padding-right: 1.6rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.main-title:hover {
+  color: #3b28cc;
+}
+
+.main-title::after {
+  content: ">";
+  transform: rotate(90deg);
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.dropdown-content {
+  background-color: #0a2472;
+  position: absolute;
+  top: 7vh;
+  width: 180%;
+  border-radius: 5px;
+  overflow: hidden;
+  display: none;
+  z-index: 2;
+}
+
+.dropdown-item {
+  font-size: 1.3rem;
+  color: white;
+  padding: 0.7rem 1rem;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #3b28cc;
+}
+
+.dropdown-active {
+  display: block;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0 1rem 0;
+}
+
+.button-container button {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  padding: 0.5rem 0.7rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #0a2472;
+  cursor: pointer;
+  margin: 0 0.7rem;
+}
+
+.button-container button:hover {
+  background-color: #3b28cc;
+}
+
+.index-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0 1.3rem 0;
+}
+
+.index-item {
+  display: flex;
+  align-items: center;
+  margin: 0 0.7rem;
+}
+
+.start-node-index {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: green;
+}
+
+.end-node-index {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: red;
+}
+
+.wall-node-index {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #243ab4;
+}
+
+.unvisited-node-index {
+  height: 1.6rem;
+  width: 1.6rem;
+  border: 2px solid #3f8efc;
+}
+
+.visited-node-index {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #c1d3fe;
+}
+
+.path-node-index {
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: #f7b538;
+}
+
+.index-item p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
+  font-family: sans-serif;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 0 1rem 0;
+}
+
+.gridRow {
+  display: inline-block;
+}
+
+.last-div {
+  text-align: center;
+  padding: 0 0 0.7rem 0;
+}
+
+.last-div h2 {
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+}
+
+.last-div a {
+  text-decoration: none;
+  color: #243ab4;
+  cursor: pointer;
+}
