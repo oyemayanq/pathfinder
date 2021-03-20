@@ -79,6 +79,5 @@ export function getNodesinPath(endNode) {
     pathNode.unshift(currentNode);
     currentNode = currentNode.prevNode;
   }
-  console.log(pathNode.length);
   return pathNode;
 }
