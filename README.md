@@ -1,6 +1,6 @@
 # Pathfinder Visualizer  
 ## Check out the live demo [here](https://pathfindiing-visualizer.herokuapp.com/)  
-**NOTE**: The site few seconds to load.
+**NOTE**: The site takes a few seconds to load.
 
 ## Overview :  
 This is an interesting and a fun project to do. The application is implemented in React and it visualizes several pathfinding algorithms such as Dijkstra's algorithm, BFS and DFS and finds path as directed by respective algorithms from starting point (green in color) to end point (red in color) on a board.   
