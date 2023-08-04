@@ -1,5 +1,5 @@
 # Pathfinder Visualizer  
-## Check out the live demo [here](https://pathfindiing-visualizer.herokuapp.com/)  
+## Check out the live demo [here]([https://pathfindiing-visualizer.herokuapp.com/](https://pathfinder-visualizer-5335a.web.app/))  
 **NOTE**: The site takes a few seconds to load.
 
 ## Overview :  
