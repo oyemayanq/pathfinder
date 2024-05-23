@@ -21,7 +21,7 @@ class Main extends Component {
       isStartNode: false,
       isEndNode: false,
       isDropDownActive: false,
-      algorithm: "",
+      algorithm: "Dijkstra's",
       isRunning: false,
     };
   }
